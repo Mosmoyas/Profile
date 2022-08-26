@@ -1,4 +1,4 @@
-/* Global Rules */
+/* Global Rules Started*/
 * {
     box-sizing: border-box;
     margin: 0;
@@ -52,22 +52,8 @@ body {
     }
 }
 
-
-
-
-
-/* @media (max-width:767px) {
-    .container {
-        width: 500px;
-
-    }
-
-} */
-
-
 /* End Global*/
 
-/* ----------------------------------------------Components-------------------------------------------------- */
 /* start Components */
 
 .speacial-heading {
@@ -643,8 +629,3 @@ body {
 }
 
 /* end Footer */
-
-
-
-/*-----------------------------------------------------------------------------------------------*/
-/* start golbal */
