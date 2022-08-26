@@ -27,7 +27,46 @@ body {
     text-align: center;
 }
 
-/* End Global */
+/*Small*/
+@media (max-width:768px) {
+    .container {
+        width: 750px;
+
+    }
+}
+
+/*Medium*/
+@media (max-width:992px) {
+    .container {
+        width: 970px;
+    }
+
+}
+
+/*large*/
+@media only screen and(max-width:1200px) {
+    .container {
+        width: 1170px;
+        background-color: black;
+
+    }
+}
+
+
+
+
+
+/* @media (max-width:767px) {
+    .container {
+        width: 500px;
+
+    }
+
+} */
+
+
+/* End Global*/
+
 /* ----------------------------------------------Components-------------------------------------------------- */
 /* start Components */
 
@@ -609,130 +648,3 @@ body {
 
 /*-----------------------------------------------------------------------------------------------*/
 /* start golbal */
-
-/*large
-@media only screen and(max-width:1200px) {
-    .container {
-        width: 1170px;
-        background-color: black;
-
-    }
-}
-
-/*Medium
-@media only screen and (max-width:992px) {
-    .container {
-        width: 970px;
-        background-color: red;
-
-    }
-
-    .container .links {
-        width: 100%;
-    }
-
-    .container .links ul {
-        display: inline;
-        position: unset;
-
-    }
-
-    .links ul li {
-        background-color: rgb(170, 67, 67);
-        padding: 12px;
-        display: inline;
-    }
-
-    .links ul li a {
-        color: rgb(222, 214, 230);
-        font-weight: bold;
-    }
-
-    .container .links .icon {
-
-        display: none;
-    }
-
-
-    .container .links ul::before {
-        border-color: transparent;
-    }
-
-    .links ul li:hover a {
-        margin-left: 0;
-    }
-}
-
-/*Small
-@media only screen and (max-width:768px) {
-    .container {
-        width: 750px;
-        justify-content: flex-start;
-
-    }
-
-
-
-    .container .links ul {
-        display: inline;
-        position: unset;
-
-    }
-
-    .links ul li {
-        background-color: rgb(170, 67, 67);
-        padding: 12px;
-        display: inline;
-    }
-
-    .links ul li a {
-        color: rgb(222, 214, 230);
-        font-weight: bold;
-    }
-
-    .container .links .icon {
-
-        display: none;
-    }
-
-
-    .container .links ul::before {
-        border-color: transparent;
-    }
-
-    .links ul li:hover a {
-        margin-left: 0;
-    }
-}
-
-
-@media only screen and (max-width:767px) {
-    .container {
-        width: 500px;
-        background-color: blue;
-        display: inline-block;
-    }
-
-    .container .logo {
-        width: 100%;
-
-    }
-
-    .links ul li {
-        background-color: rgb(214, 197, 197);
-        padding: 8px;
-        display: inline;
-    }
-
-    .container .links ul::before {
-        border-color: transparent;
-    }
-
-    .links ul li:hover a {
-        margin-left: 0;
-    }
-
-}
-
-*/
-/* End Global*/
