@@ -1,8 +1,14 @@
 /* Global Rules Started*/
 * {
     box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 :root {
@@ -228,28 +234,6 @@ large
     transition: all .5s;
 }
 
-/* .container .links ul {
-    display: none;
-    position: absolute;
-    top: 0;
-    left: 0;
-    margin-left: -130px;
-    margin-top: 10px;
-} 
-
-.container .links ul::before {
-
-
-    content: '';
-    position: absolute;
-    top: -30px;
-    right: 10px;
-    border: 15px solid;
-
-    border-color: transparent transparent rgb(179, 173, 173) transparent;
-    transition: all .5s;
-
-} */
 
 
 .links:hover ul {
@@ -432,7 +416,7 @@ large
     width: 100px;
     height: calc(100% + 100px);
     top: -50px;
-    right: 0;
+    right: 50px;
     z-index: -1;
 
 
@@ -441,6 +425,28 @@ large
 @media (max-width:1199px) {
     .img-col {
         display: none;
+    }
+
+    .serivces .ser .img-col::before {
+        right: 150px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .serivces .ser .img-col::before {
+        right: 40px;
+    }
+}
+
+@media (max-width:767.98px) {
+    .serivces .ser .img-col::before {
+        right: 110px;
+    }
+}
+
+@media (max-width:567px) {
+    .serivces .ser .img-col::before {
+        right: 50px;
     }
 }
 
@@ -502,7 +508,7 @@ large
 /* Start About Me */
 .About {
     padding-top: 60px;
-    padding-bottom: 60px;
+    margin-bottom: 30px;
 
 }
 
@@ -593,15 +599,9 @@ large
 
 
 .contact {
-    margin-top: 50px;
-
-    /* padding-top: 60px; */
-    padding-bottom: 60px;
+    padding-bottom: 80px;
     position: relative;
     margin-bottom: 100px;
-
-
-
 }
 
 .contact .contact-content {
@@ -637,6 +637,12 @@ large
 
 .contact .contact-content .social i {
     margin-left: 10px;
+}
+
+@media (max-width: 575.98px) {
+    .contact .contact-content h2 {
+        font-size: 23px;
+    }
 }
 
 /* End Contact */
